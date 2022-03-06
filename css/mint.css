@@ -1,0 +1,73 @@
+:root{
+    --green:#26D381;
+    --blue:#00E1FF;
+    --dark:#2B3C47;
+    --yelow:rgba(255, 230, 0, 1);
+    --light:#545B6B;
+    --white:#E6E6E6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-btn{
+    background-color: var(--yelow);
+}
+
+.navbar .navbar-nav .nav-item a{
+    color: var(--dark); 
+}
+
+.navbar .navbar-nav .nav-item a.active,.navbar .navbar-nav .nav-item a:hover{
+    color: var(--green);
+}
+
+.navbar a.navbar-brand img{
+    height: 67px;
+}
+
+.navbar .navbar-toggler{
+    color: var(--dark);
+    font-size: 25px;
+    border-color: var(--dark);
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--green);
+}
+
+/* landding*/
+
+.landding .img-box {
+    max-height: 330px;
+}
+.landding .img-box img{
+    width: 100%;
+}
+/* work  */
+.work .work-nav a{
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.work .row {
+    grid-auto-flow: dense;
+}
+.work .row .small-image{
+    border: 1px solid red;
+    width: 100%;
+    display: inline-block;
+    height: 300px;
+    overflow: hidden;
+}
+.work .row .larg-image {
+    border: 1px solid red;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
